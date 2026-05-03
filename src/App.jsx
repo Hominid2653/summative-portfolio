@@ -56,10 +56,10 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-stone-950 text-stone-100 font-sans">
-      <div className="max-w-5xl mx-auto px-6 pb-20">
+      <div className="max-w-2xl mx-auto px-6 pb-20">
         <Header />
 
-        <div className="grid grid-cols-1 lg:grid-cols-[340px_1fr] gap-8 items-start">
+        <div className="flex flex-col gap-8">
           <ProjectForm onAdd={handleAddProject} />
           <ProjectList
             projects={projects}

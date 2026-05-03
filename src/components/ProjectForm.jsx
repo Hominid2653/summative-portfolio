@@ -44,7 +44,7 @@ export default function ProjectForm({ onAdd }) {
   }
 
   return (
-    <div className="bg-stone-900 border border-stone-800 rounded-2xl p-7 lg:sticky lg:top-6">
+    <div className="bg-stone-900 border border-stone-800 rounded-2xl p-7 w-full">
       <h2 className="font-serif text-xl font-bold mb-6 text-stone-100">
         Add Project
       </h2>
